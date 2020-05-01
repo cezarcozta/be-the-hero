@@ -50,7 +50,12 @@
 |------app.js  
 |------routes.js  
 |------server.js  
-|----/tests  
+|----/tests
+|------/integration
+|--------icident.spec.js
+|--------ong.spec.js
+|------/unit
+|--------generateUniqueId.spec.js  
 |----.gitignore  
 |----jest.config.js  
 |----knexfile.js  
