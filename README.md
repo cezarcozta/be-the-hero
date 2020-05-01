@@ -4,7 +4,7 @@
     para isso as ongs se cadastram para poderm adicionar casos, contendo um titulo, uma descrição do ocorrido 
     assim como o valor dos gastos com os casos em especifico.
 # WEB DEMO
-(url da img)
+(https://raw.githubusercontent.com/cezarcozta/be-the-hero/005ca112b95147916c474e48de807f1b2e1a8a22/frontend/src/assets/logo.svg)
 # Tecnologias envolvidas
   - Database: SQLite3 + KNEX.js ORM
   - Back-end: Node.js + Express.js
