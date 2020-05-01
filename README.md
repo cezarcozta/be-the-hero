@@ -8,17 +8,22 @@
     como o valor gasto com as despesa do resgate.    
     Já o app mobile qualquer pessoa que instalar no smartphone pode acessar uma listagem de casos de resgate com o 
     seu valor, e-mail, assim como um botão para envio de mensagem direto para whatsapp da Ong resposável por tal 
-    resgate.
-# Identidade Visual
+    resgate.  
+
+# Identidade Visual  
+
 ![](https://github.com/cezarcozta/be-the-hero/blob/master/frontend/src/assets/heroes.png?raw=true)
-![](https://raw.githubusercontent.com/cezarcozta/be-the-hero/005ca112b95147916c474e48de807f1b2e1a8a22/frontend/src/assets/logo.svg)
-# Tecnologias envolvidas
+![](https://raw.githubusercontent.com/cezarcozta/be-the-hero/005ca112b95147916c474e48de807f1b2e1a8a22/frontend/src/assets/logo.svg)  
+
+# Tecnologias envolvidas  
+
   - **Database:** SQLite3 + KNEX.js ORM
   - **Back-end:** Node.js + Express.js
   - **Front-end:** React.js + Styled Components + Celebrate
   - **Mobile:** React Native + Expo
   - **Tests:** JEST  
-  - **Operational System:** Ubuntu 18.04 LTS
+  - **Operational System:** Ubuntu 18.04 LTS  
+
 # Organização do Projeto
   
 - /backend  
@@ -106,32 +111,45 @@
 |------babel.config.js    
 |----package-lock.json    
 |----package.json    
-|----yarn.json   
-# Rodando o Projeto
->Pré-requisitos: yarn package manager.  
+|----yarn.json     
+
+# Rodando o Projeto  
+
+>Pré-requisitos: yarn package manager.   
 
 **/backend**  
+
 ```zsh
 yarn     
 yarn start
 ```  
-**/frontend**
+
+**/frontend**  
+
 ```zsh
 yarn  
 yarn start
 ```  
-**/mobile**
+
+**/mobile**  
+
 ```zsh
 yarn
 yarn start
 yarn react-native run-android
 ```  
-# Desenvolvido por
+
+# Desenvolvido por  
+
 - :rocket::rocket::rocket: [RocketSeat](https://rocketseat.com.br/)  
     Semana OmniStack 11  
+
 # Apresentado por  
-- [Diego Fernandes](https://github.com/diego3g)
+
+- [Diego Fernandes](https://github.com/diego3g)  
+
 # Reproduzido por  
+
 - César Augusto Costa :sunglasses: :sunglasses: :sunglasses:    
 :: cezarcozta@gmail.com  
 :: [Linkedin/cezarcozta](www.linkedin.com/in/cezarcozta)  
