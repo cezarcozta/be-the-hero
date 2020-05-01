@@ -4,7 +4,7 @@
     para isso as ongs se cadastram para poderm adicionar casos, contendo um titulo, uma descrição do ocorrido 
     assim como o valor dos gastos com os casos em especifico.
 # WEB DEMO
-// GIF do App Web Funcionando
+(url da img)
 # Tecnologias envolvidas
   - Database: SQLite3 + KNEX.js ORM
   - Back-end: Node.js + Express.js
