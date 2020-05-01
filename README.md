@@ -164,7 +164,7 @@ yarn start
 /mobile/src/services/api.js
 ```
 **Ajustando Rede**  
-![](/src/assets/tela.png)  
+![](https://github.com/cezarcozta/be-the-hero/blob/master/mobile/src/assests/tela.png)  
 ```javascript
 const api = axios.create({
     baseURL: 'http://192.168.1.105:3333',
