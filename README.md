@@ -3,15 +3,17 @@
     Aplicação para conexão entre pessoas que desejam ajudar Ongs de resgate animal em casos especificos, 
     para isso as ongs se cadastram para poderm adicionar casos, contendo um titulo, uma descrição do ocorrido 
     assim como o valor dos gastos com os casos em especifico.
-# WEB DEMO
-(https://raw.githubusercontent.com/cezarcozta/be-the-hero/005ca112b95147916c474e48de807f1b2e1a8a22/frontend/src/assets/logo.svg)
+# Identidade Visual
+![](https://github.com/cezarcozta/be-the-hero/blob/master/frontend/src/assets/heroes.png?raw=true)
+![](https://raw.githubusercontent.com/cezarcozta/be-the-hero/005ca112b95147916c474e48de807f1b2e1a8a22/frontend/src/assets/logo.svg)
 # Tecnologias envolvidas
-  - Database: SQLite3 + KNEX.js ORM
-  - Back-end: Node.js + Express.js
-  - Front-end: React.js + Styled#Components + Celebrate(validação de inputs)
-  - Mobile: React Native + Expo
-  - Tests: JEST
+  - **Database:** SQLite3 + KNEX.js ORM
+  - **Back-end:** Node.js + Express.js
+  - **Front-end:** React.js + Styled#Components + Celebrate(validação de inputs)
+  - **Mobile:** React Native + Expo
+  - **Tests:** JEST
 # Organização do Projeto
+  
 - /backend  
 |----/src  
 |------/cotrollers  
@@ -37,6 +39,7 @@
 |----knexfile.js  
 |----package.lock.json  
 |----package.json 
+  
 - /frontend  
 |----/public  
 |------favicon.ico  
@@ -68,6 +71,7 @@
 |----package-lock.json  
 |----package.json    
 |----yarn.json 
+  
 - /mobile  
 |----/.expo-shared  
 |------assests.json     
@@ -96,6 +100,15 @@
 |----package-lock.json    
 |----package.json    
 |----yarn.json   
-# Fomentado por
-- RocketSeat => https://rocketseat.com.br/  
+# Desenvolvido por
+- [RocketSeat](https://rocketseat.com.br/)  
     Semana OmniStack 11  
+# Apresentado por  
+- [Diego Fernandes](https://github.com/diego3g)
+# Reproduzido por  
+- César Augusto Costa  
+:: cezarcozta@gmail.com  
+:: [Linkedin/cezarcozta](www.linkedin.com/in/cezarcozta)  
+:: [Twitter@cezarcozta](www.twitter.com/cezarcozta)  
+:: [Instagram@cezarcozta](www.instagram.com/cezarcozta)  
+:: [Facebook/cezarcozta](www.facebook.com/cezarcozta)  
