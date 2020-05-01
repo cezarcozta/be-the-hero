@@ -1,6 +1,14 @@
 # Be The Hero
   #### Propósito
-Aplicação para conexão via whatsapp ou e-mail entre pessoas que desejam ajudar financeiramente e Ongs de resgate animal que necessitam cobrir custos com: transporte, estadia, alimentação, veterinário entre outras despesas relacionadas aos resgates de animais em situação de abandono. Com o app web Be The Hero as Ongs de resgate animal se cadastram com, nome, endereço e telefone para poderem adicionar casos de resgate com seus custos, esses casos contendo um titulo, uma descrição do ocorrido assim como o valor gasto com as despesa do resgate. Já o app mobile qualquer pessoa que instalar no smartphone pode acessar uma listagem de casos de resgate com o seu valor, e-mail, assim como um botão para envio de mensagem direto para whatsapp da Ong resposável por tal resgate.
+    Aplicação para conexão via whatsapp ou e-mail entre pessoas que desejam ajudar financeiramente e Ongs de resgate  
+    animal que necessitam cobrir custos com: transporte, estadia, alimentação, veterinário entre outras despesas   
+    relacionadas aos resgates de  animais em situação de abandono.  
+    Com o app web Be The Hero as Ongs de resgate animal se cadastram com, nome, endereço e telefone para poderem 
+    adicionar casos de resgate com seus custos, esses casos contendo um titulo, uma descrição do ocorrido assim 
+    como o valor gasto com as despesa do resgate.    
+    Já o app mobile qualquer pessoa que instalar no smartphone pode acessar uma listagem de casos de resgate com o 
+    seu valor, e-mail, assim como um botão para envio de mensagem direto para whatsapp da Ong resposável por tal 
+    resgate.
 # Identidade Visual
 ![](https://github.com/cezarcozta/be-the-hero/blob/master/frontend/src/assets/heroes.png?raw=true)
 ![](https://raw.githubusercontent.com/cezarcozta/be-the-hero/005ca112b95147916c474e48de807f1b2e1a8a22/frontend/src/assets/logo.svg)
@@ -99,6 +107,7 @@ Aplicação para conexão via whatsapp ou e-mail entre pessoas que desejam ajuda
 |----package.json    
 |----yarn.json   
 # Rodando o Projeto
+>Pré-requisitos: yarn package manager.  
 **/backend**  
 ```shell
 yarn     
