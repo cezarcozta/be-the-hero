@@ -100,6 +100,23 @@ Aplicação para conexão via whatsapp ou e-mail entre pessoas que desejam ajuda
 |----package-lock.json    
 |----package.json    
 |----yarn.json   
+# Rodando o Projeto
+**/backend**  
+```
+yarn     
+yarn start
+```  
+**/frontend**
+```
+yarn  
+yarn start
+```  
+**/mobile**
+```
+yarn
+yarn start
+yarn react-native run-android
+```  
 # Desenvolvido por
 - :rocket::rocket::rocket: [RocketSeat](https://rocketseat.com.br/)  
     Semana OmniStack 11  
