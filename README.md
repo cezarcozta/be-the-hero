@@ -17,7 +17,8 @@
   - **Back-end:** Node.js + Express.js
   - **Front-end:** React.js + Styled#Components + Celebrate(validação de inputs)
   - **Mobile:** React Native + Expo
-  - **Tests:** JEST
+  - **Tests:** JEST  
+  - **Operational System:** Ubuntu 18.04 LTS
 # Organização do Projeto
   
 - /backend  
