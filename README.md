@@ -111,17 +111,17 @@
 >Pré-requisitos: yarn package manager.  
 
 **/backend**  
-```zsc
+```zsh
 yarn     
 yarn start
 ```  
 **/frontend**
-```zsc
+```zsh
 yarn  
 yarn start
 ```  
 **/mobile**
-```zsc
+```zsh
 yarn
 yarn start
 yarn react-native run-android
