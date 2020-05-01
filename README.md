@@ -129,10 +129,14 @@
 
 **clone o repositório**   
 
-'git clone https://www.github.com/cezarcozta/be-the-hero'  
+'
+git clone https://www.github.com/cezarcozta/be-the-hero  
+'  
 
 **acesse a pasta do projeto**  
-'cd /be-the-hero'  
+'
+cd /be-the-hero  
+'  
 
 **/backend**  
 
@@ -160,11 +164,15 @@ yarn
 yarn start
 ```  
 > Baixe e instale o EXPO no seu smartphone, acesse o EXPO e escaneie o QRCode do terminal ou escaneie em http://localhost:19002/  
+
+**Ajustando acesso a api**  
+
 ```zsh
 /mobile/src/services/api.js
 ```
-**Ajustando Rede**  
-![](/src/assets/tela.png)  
+
+![](https://github.com/cezarcozta/be-the-hero/blob/master/mobile/src/assests/tela.png)  
+
 ```javascript
 const api = axios.create({
     baseURL: 'http://192.168.1.105:3333',
