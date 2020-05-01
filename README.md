@@ -1,14 +1,19 @@
 # Be The Hero
   #### Propósito
-    Aplicação para conexão via whatsapp ou e-mail entre pessoas que desejam ajudar financeiramente e Ongs de resgate  
-    animal que necessitam cobrir custos com: transporte, estadia, alimentação, veterinário entre outras despesas   
+    Aplicação para conexão via whatsapp ou e-mail entre pessoas que 
+    desejam ajudar financeiramente e Ongs de resgate  
+    animal que necessitam cobrir custos com: transporte, estadia, 
+    alimentação, veterinário entre outras despesas   
     relacionadas aos resgates de  animais em situação de abandono.  
-    Com o app web Be The Hero as Ongs de resgate animal se cadastram com, nome, endereço e telefone para poderem 
-    adicionar casos de resgate com seus custos, esses casos contendo um titulo, uma descrição do ocorrido assim 
-    como o valor gasto com as despesa do resgate.    
-    Já o app mobile qualquer pessoa que instalar no smartphone pode acessar uma listagem de casos de resgate com o 
-    seu valor, e-mail, assim como um botão para envio de mensagem direto para whatsapp da Ong resposável por tal 
-    resgate.  
+    Com o app web Be The Hero as Ongs de resgate animal se cadastram 
+    com: nome, endereço e telefone para poderem 
+    adicionar casos de resgate com seus custos, esses casos contendo 
+    um titulo, uma descrição do ocorrido assim como o valor gasto com as 
+    despesas do resgate.    
+    Já o app mobile qualquer pessoa que instalar no smartphone pode 
+    acessar uma listagem de casos de resgate com o seu valor, e-mail, 
+    assim como um botão para envio de mensagem direto para whatsapp da 
+    Ong resposável por tal resgate.  
 
 # Identidade Visual  
 
@@ -117,27 +122,40 @@
 
 >Pré-requisitos: yarn package manager.   
 
+**clone o repositório**   
+
+'git clone https://www.github.com/cezarcozta/be-the-hero'  
+
+**acesse a pasta do projeto**  
+'cd /be-the-hero'  
+
 **/backend**  
 
 ```zsh
+cd /backend  
 yarn     
 yarn start
 ```  
+> http://localhost:3333/  
 
 **/frontend**  
 
 ```zsh
+cd /frontend  
 yarn  
 yarn start
 ```  
+> http://localhost:3000/  
 
 **/mobile**  
 
 ```zsh
+cd /mobile  
 yarn
 yarn start
 yarn react-native run-android
 ```  
+> Baixe e instale o EXPO no seu smartphone, acesse o EXPO e escaneie o QRCode do terminal ou escaneie em http://localhost:19002/
 
 # Desenvolvido por  
 
