@@ -153,7 +153,6 @@ yarn start
 cd /mobile  
 yarn
 yarn start
-yarn react-native run-android
 ```  
 > Baixe e instale o EXPO no seu smartphone, acesse o EXPO e escaneie o QRCode do terminal ou escaneie em http://localhost:19002/
 
