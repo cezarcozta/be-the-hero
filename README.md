@@ -13,6 +13,30 @@
   - Tests: #JEST
 # Organização do Projeto
 - /backend
+|----/src  
+|--------/cotrollers  
+|--------IncidentController.js   
+|--------OngController.js   
+|--------ProfileController.js  
+|--------SessionController.js    
+|------/database  
+|--------/migrations  
+|----------20200324140408_create_ong.js  
+|----------20200324141154_create_incident.js  
+|--------connection.js  
+|--------db.sqlite  
+|--------test.sqlite  
+|------/utils  
+|--------generateUniqueId.js  
+|------app.js  
+|------routes.js  
+|------server.js  
+|----/tests  
+|----.gitignore  
+|----jest.config.js  
+|----knexfile.js  
+|----package.lock.json  
+|----package.json 
 - /frontend
 - /mobile
 # Fomentado por
