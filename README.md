@@ -159,7 +159,17 @@ cd /mobile
 yarn
 yarn start
 ```  
-> Baixe e instale o EXPO no seu smartphone, acesse o EXPO e escaneie o QRCode do terminal ou escaneie em http://localhost:19002/
+> Baixe e instale o EXPO no seu smartphone, acesse o EXPO e escaneie o QRCode do terminal ou escaneie em http://localhost:19002/  
+```zsh
+/mobile/src/services/api.js
+```
+**Ajustando Rede**  
+![](/src/assets/tela.png)  
+```javascript
+const api = axios.create({
+    baseURL: 'http://192.168.1.105:3333',
+});
+```  
 
 # Desenvolvido por  
 
