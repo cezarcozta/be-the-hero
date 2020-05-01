@@ -6,11 +6,11 @@
 # WEB DEMO
 // GIF do App Web Funcionando
 # Tecnologias envolvidas
-  - Database: #SqLite3 + #KNEX.js ORM
-  - Back-end: #Node.js + express.js
-  - Front-end: #React.js + #Styled #Components + #Celebrate(validação de inputs)
-  - Mobile: #React Native + #Expo
-  - Tests: #JEST
+  - Database: SQLite3 + KNEX.js ORM
+  - Back-end: Node.js + Express.js
+  - Front-end: React.js + Styled#Components + Celebrate(validação de inputs)
+  - Mobile: React Native + Expo
+  - Tests: JEST
 # Organização do Projeto
 - /backend  
 |----/src  
