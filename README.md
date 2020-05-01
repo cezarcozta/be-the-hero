@@ -15,7 +15,7 @@
 # Tecnologias envolvidas
   - **Database:** SQLite3 + KNEX.js ORM
   - **Back-end:** Node.js + Express.js
-  - **Front-end:** React.js + Styled#Components + Celebrate(validação de inputs)
+  - **Front-end:** React.js + Styled Components + Celebrate
   - **Mobile:** React Native + Expo
   - **Tests:** JEST  
   - **Operational System:** Ubuntu 18.04 LTS
@@ -111,17 +111,17 @@
 >Pré-requisitos: yarn package manager.  
 
 **/backend**  
-```shell
+```zsc
 yarn     
 yarn start
 ```  
 **/frontend**
-```shell
+```zsc
 yarn  
 yarn start
 ```  
 **/mobile**
-```shell
+```zsc
 yarn
 yarn start
 yarn react-native run-android
