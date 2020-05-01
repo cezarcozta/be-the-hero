@@ -129,14 +129,14 @@
 
 **clone o repositório**   
 
-'
+`
 git clone https://www.github.com/cezarcozta/be-the-hero  
-'  
+`  
 
 **acesse a pasta do projeto**  
-'
+`
 cd /be-the-hero  
-'  
+`  
 
 **/backend**  
 
@@ -173,10 +173,6 @@ yarn start
 
 ![](https://github.com/cezarcozta/be-the-hero/blob/master/mobile/src/assests/tela.png)  
 
-=======
-**Ajustando Rede**  
-![](https://github.com/cezarcozta/be-the-hero/blob/master/mobile/src/assests/tela.png)  
->>>>>>> 55bcd95b031b99c11f720e8981d563ac9b5c8e67
 ```javascript
 const api = axios.create({
     baseURL: 'http://192.168.1.105:3333',
