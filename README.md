@@ -12,9 +12,9 @@
   - Mobile: #React Native + #Expo
   - Tests: #JEST
 # Organização do Projeto
-- /backend
+- /backend  
 |----/src  
-|--------/cotrollers  
+|------/cotrollers  
 |--------IncidentController.js   
 |--------OngController.js   
 |--------ProfileController.js  
@@ -37,7 +37,37 @@
 |----knexfile.js  
 |----package.lock.json  
 |----package.json 
-- /frontend
+- /frontend  
+|----/public  
+|------favicon.ico  
+|------index.html  
+|----/src  
+|------/assets  
+|--------heroes.png   
+|--------logo.svg    
+|------/pages  
+|--------/Logon  
+|----------index.js  
+|----------styles.css  
+|--------/NewIncident   
+|----------index.js  
+|----------styles.css  
+|--------/Profile    
+|----------index.js  
+|----------styles.css  
+|--------/Register  
+|----------index.js  
+|----------styles.css   
+|--------/services    
+|----------api.js  
+|------App.js  
+|------global.css  
+|------index.js  
+|------routes.js  
+|----.gitignore  
+|----package.lock.json  
+|----package.lock  
+|----yarn.json 
 - /mobile
 # Fomentado por
 - RocketSeat => https://rocketseat.com.br/
