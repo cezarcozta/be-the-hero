@@ -65,10 +65,37 @@
 |------index.js  
 |------routes.js  
 |----.gitignore  
-|----package.lock.json  
-|----package.lock  
+|----package-lock.json  
+|----package.json    
 |----yarn.json 
-- /mobile
+- /mobile  
+|----/.expo-shared  
+|------assests.json     
+|----/assetes   
+|------icon.png    
+|------splash.png    
+|----/src    
+|------/assets    
+|--------logo.png     
+|--------logo@2x.png    
+|--------logo@3x.png    
+|------/pages    
+|--------/Detail    
+|----------index.js    
+|----------styles.js    
+|--------/Incident     
+|----------index.js    
+|----------styles.js      
+|--------/services      
+|----------api.js    
+|--------routes.js    
+|----.gitignore   
+|------App.js    
+|------app.json    
+|------babel.config.js    
+|----package-lock.json    
+|----package.json    
+|----yarn.json   
 # Fomentado por
-- RocketSeat => https://rocketseat.com.br/
-    Semana OmniStack 11
+- RocketSeat => https://rocketseat.com.br/  
+    Semana OmniStack 11  
