@@ -17,6 +17,8 @@ routes.post('/sessions', celebrate({
 
 routes.get('/ongs', OngController.index);
 
+routes.get('/ongs/:id', OngController.show);
+
 routes.post('/ongs', celebrate({
     [Segments.BODY]: Joi.object().keys({
         name: Joi.string().required(),
@@ -26,6 +28,21 @@ routes.post('/ongs', celebrate({
         uf: Joi.string().required().length(2),
     })
 }), OngController.create);
+
+routes.put('/ongs/:id', celebrate({
+    [Segments.BODY]: Joi.object().keys({
+        name: Joi.string().required(),
+        email: Joi.string().required().email(),
+        whatsapp: Joi.string().required().min(10).max(11),
+        city: Joi.string().required(),
+        uf: Joi.string().required().length(2),
+    }),[Segments.HEADERS]: Joi.object({
+        authorization: Joi.string().required(),
+    }).unknown(),
+    [Segments.PARAMS]: Joi.object().keys({
+        id: Joi.string().required(),
+    }),
+}), OngController.update);
 
 routes.get('/profile', celebrate({
     [Segments.HEADERS]: Joi.object({
@@ -38,6 +55,22 @@ routes.get('/incidents', celebrate({
         page: Joi.number(),
     })
 }), IncidentController.index);
+
+routes.get('/incidents/:id', IncidentController.show);
+
+routes.put('/incidents/:id', celebrate({
+    [Segments.HEADERS]: Joi.object({
+        authorization: Joi.string().required(),
+    }).unknown(),
+    [Segments.PARAMS]: Joi.object().keys({
+        id: Joi.number().required(),
+    }),
+    [Segments.BODY]: Joi.object().keys({
+        title: Joi.string().required(),
+        description: Joi.string().required(),
+        value: Joi.number().required(),
+    }),
+}), IncidentController.update);
 
 routes.post('/incidents', celebrate({
     [Segments.HEADERS]: Joi.object({
