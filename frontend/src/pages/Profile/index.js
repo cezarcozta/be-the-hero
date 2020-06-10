@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import {FiPower, FiTrash2} from 'react-icons/fi';
+import {FiPower, FiTrash2, FiSettings} from 'react-icons/fi';
 
 import api from '../../services/api';
 
@@ -10,6 +10,7 @@ import logoImg from '../../assets/logo.svg';
 
 export default function Profile() {
     const [incidents, setIncidents] = useState([]);
+    
 
     const history = useHistory();
 
@@ -44,6 +45,16 @@ export default function Profile() {
 
         history.push('/');
     }
+
+    function handleEditOng(ongId){
+        //ja caminha até o local mas não traz os dados
+        history.push(`/ongs/${ongId}`);             
+    }
+
+    function handleEditIncident(id){
+        //criar pagina de edição de incident
+    }
+
     return (
         <div className="profile-container">
             <header>
@@ -51,14 +62,21 @@ export default function Profile() {
                 <span>Seja Bem Vinda, { ongName }</span>
                 
                 <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
+                <button onClick={() => handleEditOng(ongId)} type="button">
+                    <FiSettings size={18} color="E02041" />
+                </button>  
                 <button onClick={handlelogout} type="button">
                     <FiPower size={18} color="E02041" />
-                </button>
+                </button>  
             </header>
             <h1>Casos Cadastrados</h1>
                 <ul>
                     {incidents.map(incident => (
                         <li key={incident.id}>
+                            <button onClick={() => handleEditIncident(incident.id)} type="button">
+                                <FiSettings size={20} color="A8A8B3"/>
+                            </button>
+
                             <strong>CASO:</strong>
                             <p>{incident.title}</p>
 
